@@ -47,7 +47,6 @@ body {
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
-git remote add origin <repo-url>  # only needed if you haven't added it
 
 
 /* Title */
