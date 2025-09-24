@@ -1,0 +1,89 @@
+/* Full page center */
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #f9fafb; /* light gray background */
+}
+
+/* Card box */
+.card {
+  background: #fff;
+  width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 4px solid #22c55e; /* green */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.card h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #111827;
+}
+
+/* Form layout */
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Input fields */
+.card input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.card input:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3);
+}
+
+/* Button */
+.card button {
+  background: #16a34a;
+  color: white;
+  font-weight: bold;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.card button:hover {
+  background: #15803d;
+}
+
+/* Error message */
+.error {
+  background: #ef4444;
+  color: white;
+  font-size: 14px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+/* Register link */
+.register-link {
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: right;
+  display: block;
+  color: #374151;
+}
+
+.register-link span {
+  color: #111827;
+  text-decoration: underline;
+}

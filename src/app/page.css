@@ -1,0 +1,81 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a1a1a, #000000);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+
+.mascot {
+  width: 120px;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00aaff;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.subtext {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #bbb;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.student-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.teacher-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Tech icons */
+.tech-icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  font-size: 18px;
+  color: #ddd;
+}

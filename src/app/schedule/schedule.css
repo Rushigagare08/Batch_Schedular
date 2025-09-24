@@ -1,0 +1,88 @@
+/* Container */
+.schedule-container {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+/* Title */
+.schedule-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  background: linear-gradient(90deg, #1abc9c, #16a085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Loading and Empty State */
+.loading-text,
+.no-batches {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  margin-top: 30px;
+}
+
+/* Grid */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.schedule-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card hover effect */
+.schedule-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Card header */
+.card-header {
+  background: linear-gradient(135deg, #1abc9c, #16a085);
+  padding: 15px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Card body */
+.card-body {
+  padding: 20px;
+}
+
+.card-body p {
+  margin: 8px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.card-body strong {
+  color: #1abc9c;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+  .schedule-title {
+    font-size: 28px;
+  }
+
+  .card-body p {
+    font-size: 14px;
+  }
+}

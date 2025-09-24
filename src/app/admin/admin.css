@@ -1,0 +1,119 @@
+/* Apply a modern font */
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+/* Navbar */
+.admin-navbar {
+  background: linear-gradient(90deg, #1abc9c, #16a085);
+  padding: 15px 25px;
+  border-bottom: 3px solid #149174;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.admin-navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.admin-navbar a:hover {
+  color: #e8f8f5;
+}
+
+/* Container */
+/* Container */
+.admin-container {
+  max-width: 700px;
+  margin: 120px auto 60px auto; /* ⬅ Added more top margin for spacing from navbar */
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Title */
+.admin-title {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #16a085;
+  letter-spacing: 1px;
+}
+
+/* Form */
+.batch-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.batch-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #333;
+  font-size: 15px;
+}
+
+.batch-form input {
+  padding: 12px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+  margin-top: 6px;
+  transition: all 0.3s;
+}
+
+.batch-form input:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 6px rgba(26, 188, 156, 0.3);
+  outline: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  padding: 14px;
+  background: #1abc9c;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  background: #16a085;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(26, 188, 156, 0.3);
+}
+
+/* Footer */
+.admin-footer {
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px 0;
+  background: #f8f9fa;
+  color: #555;
+  font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+}

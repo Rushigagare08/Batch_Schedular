@@ -1,0 +1,37 @@
+/* profile.css */
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  padding: 2rem; /* 32px */
+  background-color: rgba(226, 232, 240, 0.1); /* light gray transparent */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 1.5rem 0; /* my-6 */
+  border-radius: 8px;
+}
+
+.info {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
